@@ -1,0 +1,13 @@
+.nav-section{
+    background-color: #002B79;
+    height: 850px;
+}
+
+
+.nav-section .bg-pattern{
+    position: absolute;
+    right: 0;
+    height: 700px;
+    width: 90%;
+}
+
