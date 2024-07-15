@@ -1,8 +1,6 @@
 .nav-section{
-    background-color: #002B79;
     height: 850px;
 }
-
 
 .nav-section .bg-pattern{
     position: absolute;
@@ -11,5 +9,16 @@
     width: 90%;
 }
 
+.video{
+    position: absolute;
+    height: 800px;
+    width: 450px;
+    margin-right: -50rem;
+    margin-top: -15rem;
+}
 
-
+.image{
+    position: absolute;
+    margin-top: 25rem;
+    width: 450px;
+}
