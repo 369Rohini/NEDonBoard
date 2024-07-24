@@ -5,10 +5,10 @@ $primary: #002B79 !default;
   }
 }
 
-
+$span-primary:#084CE3;
 
 .span-primary{
-  color: #084CE3;
+  color: $span-primary;
 }
 $ft-size-12:0.75rem;
 
@@ -48,6 +48,13 @@ $font-sizes:(
   border-right: 0;
 }
 
+.bd-bottom-job{
+  border: 1px solid $span-primary;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
 .bd-bottom-light{
   border: 1px solid white;
   border-top: 0;
@@ -67,6 +74,13 @@ $button-bg: #084CE3;
 
 .text-btn-bg{
   color: $button-bg;
+}
+
+$radius-2:2px;
+
+.radius-2{
+  border-top-left-radius: $radius-2;
+  border-top-right-radius: $radius-2;
 }
 
 .btn-bg{
@@ -205,4 +219,14 @@ $font-size-12: 12px;
 
 .custom-bottom-margin{
   margin-bottom: 32px;
+}
+
+$ft-line-height:           19.6px !default;
+.lh-sml{
+  line-height: $ft-line-height;
+}
+
+$custom-margin-left: -100px;
+.custom-margin {
+  margin-left: $custom-margin-left;
 }
