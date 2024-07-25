@@ -64,6 +64,19 @@
   background-color: #084CE3;
 }
 
+.custom-btn {
+  background-color: transparent;
+  color: lightgray;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+.custom-btn:hover {
+  background-color: white;
+  color: black;
+}
+
 .text-tealish-blue {
   color: #084CE3;
 }
@@ -165,6 +178,10 @@
 
 .custom-margin {
   margin-left: -100px;
+}
+
+.job-font-style {
+  font-family: Neue Haas Unica W1G;
 }
 
 /*!

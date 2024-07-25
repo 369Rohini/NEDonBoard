@@ -87,6 +87,20 @@ $radius-2:2px;
   background-color: $button-bg;
 }
 
+.custom-btn {
+  background-color: transparent;
+  color: lightgray;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
 $ternary: #F8F9FA !default;
 
 $tealish-blue: #084CE3 !default;
@@ -229,4 +243,11 @@ $ft-line-height:           19.6px !default;
 $custom-margin-left: -100px;
 .custom-margin {
   margin-left: $custom-margin-left;
+}
+
+
+$job-font-style: Neue Haas Unica W1G;
+
+.job-font-style{
+  font-family: $job-font-style;
 }
