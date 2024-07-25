@@ -1,0 +1,26 @@
+.nav-section {
+  height: 850px;
+}
+
+.nav-section .bg-pattern {
+  position: absolute;
+  right: 0;
+  height: 700px;
+  width: 90%;
+}
+
+.video {
+  position: absolute;
+  height: 697px;
+  width: 528px;
+  margin-right: -50rem;
+  margin-top: -7rem;
+}
+
+.image {
+  position: absolute;
+  margin-top: 29rem;
+  height: 303px;
+  width: 484px;
+  margin-left: -3rem;
+}
